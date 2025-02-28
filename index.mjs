@@ -1,10 +1,5 @@
+import js from '@eslint/js'
+
 export default [
-    {
-        extends: ['eslint:recommended'],
-        // languageOptions: {
-        // },
-        //
-        // rules: {
-        // }
-    }
+    js.configs.recommended
 ];
