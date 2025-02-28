@@ -1,0 +1,16 @@
+{
+  "name": "vladimirsan-eslint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [ ],
+  "author": "vladimirsan",
+  "license": "ISC",
+  "description": ""
+}
