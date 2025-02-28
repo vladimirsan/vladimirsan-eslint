@@ -1,5 +1,7 @@
 import js from '@eslint/js'
+import react from 'eslint-plugin-react'
 
 export default [
-    js.configs.recommended
+    js.configs.recommended,
+    react.configs.recommended,
 ];
