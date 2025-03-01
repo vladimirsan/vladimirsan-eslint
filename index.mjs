@@ -9,6 +9,11 @@ export default tseslint.config(
     react.configs.flat.all,
     react.configs.flat['jsx-runtime'],
     {
+        languageOptions:{
+            parserOptions: {
+                projectService: true,
+            },
+        },
         settings: {
             react: {
                 version: 'detect'
