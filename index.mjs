@@ -20,6 +20,7 @@ export default tseslint.config(
             },
         },
         rules: {
+            'react/function-component-definition': "off",
             'react/jsx-filename-extension': [
                 'error',
                 {
