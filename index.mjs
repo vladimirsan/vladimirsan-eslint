@@ -37,7 +37,7 @@ export default tseslint.config(
             ],
             "react/jsx-no-literals": "off", // I can enable this when I want to translate the app
             "react/jsx-no-bind": ["error", {
-                "allowArrowFunctions": "true"
+                "allowArrowFunctions": true,
             }],
         },
     }
