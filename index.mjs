@@ -27,6 +27,14 @@ export default tseslint.config(
                     extensions: ['.jsx', '.tsx'],
                 },
             ],
+            "react/jsx-curly-brace-presence": [
+                "error",
+                {
+                    props: "never",
+                    children: "ignore",
+                    propElementValues: "always",
+                },
+            ],
         },
     }
 );
