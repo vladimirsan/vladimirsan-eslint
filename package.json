@@ -1,6 +1,6 @@
 {
   "name": "vladimirsan-eslint",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "index.mjs",
   "scripts": {
     "test": ""
