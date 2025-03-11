@@ -48,6 +48,7 @@ export default tseslint.config(
                 "let": "never",
                 "const": "never",
             }],
+            "react/jsx-max-depth": ["error", { "max": 5 }],
         },
     }
 );
