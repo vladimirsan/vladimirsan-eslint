@@ -49,7 +49,8 @@ export default tseslint.config(
                 "const": "never",
             }],
             "react/jsx-max-depth": ["error", { "max": 5 }],
-            "react/jsx-one-expression-per-line": ["error", { "allow": "non-jsx" }],
+            "react/jsx-one-expression-per-line": "off",
+            "no-ternary": "off",
         },
     }
 );
