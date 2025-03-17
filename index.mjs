@@ -51,6 +51,7 @@ export default tseslint.config(
             "react/jsx-max-depth": ["error", { "max": 5 }],
             "react/jsx-one-expression-per-line": "off",
             "no-ternary": "off",
+            "react/forbid-component-props": ["error", {"forbid": ["style"]}],
         },
     }
 );
