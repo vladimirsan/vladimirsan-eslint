@@ -52,6 +52,7 @@ export default tseslint.config(
             "react/jsx-one-expression-per-line": "off",
             "no-ternary": "off",
             "react/forbid-component-props": ["error", {"forbid": ["style"]}],
+            "capitalized-comments": "off",
         },
     }
 );
