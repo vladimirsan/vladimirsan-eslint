@@ -53,6 +53,7 @@ export default tseslint.config(
             "no-ternary": "off",
             "react/forbid-component-props": ["error", {"forbid": ["style"]}],
             "capitalized-comments": "off",
+            "react/jsx-child-element-spacing": "off",
         },
     }
 );
