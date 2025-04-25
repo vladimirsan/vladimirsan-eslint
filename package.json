@@ -1,6 +1,6 @@
 {
   "name": "vladimirsan-eslint",
-  "version": "1.0.18",
+  "version": "1.0.20",
   "main": "index.mjs",
   "scripts": {
     "test": ""
@@ -15,6 +15,7 @@
   "description": "",
   "dependencies": {
     "@eslint/js": "^9.21.0",
+    "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.4",
