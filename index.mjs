@@ -107,10 +107,15 @@ export default tseslint.config(
             "import/no-named-as-default-member": "error",
             "import/no-named-default": "error",
             "import/no-self-import": "error",
-            "import/no-unassigned-import": "error",
+            "import/no-unassigned-import": ["error",{
+                allow: [
+                    "**/*.css",
+                ],
+            }],
             "import/no-useless-path-segments": ["error", {
                 noUselessIndex: true,
             }],
+            "sort-imports": "off",
             "import/order": ["error", {
                 alphabetize: {
                     order: "asc",
