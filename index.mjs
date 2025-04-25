@@ -29,6 +29,15 @@ export default tseslint.config(
             react: {
                 version: 'detect'
             },
+            "import/parsers": {
+                "@typescript-eslint/parser": [".ts", ".tsx"],
+            },
+
+            "import/resolver": {
+                typescript: {
+                    alwaysTryTypes: true,
+                },
+            },
         },
         rules: {
             'react/function-component-definition': "off",
