@@ -4,6 +4,7 @@ import tseslint from 'typescript-eslint'
 import pluginPrettier from "eslint-plugin-prettier";
 import pluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import pluginUnusedImports from "eslint-plugin-unused-imports";
+import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginImport from "eslint-plugin-import";
 
 export default tseslint.config(
@@ -15,6 +16,7 @@ export default tseslint.config(
     pluginPrettierRecommended,
     pluginImport.flatConfigs.recommended,
     pluginImport.flatConfigs.typescript,
+    pluginReactHooks.configs["recommended-latest"],
     {
         plugins: {
             "prettier": pluginPrettier,
@@ -124,6 +126,7 @@ export default tseslint.config(
                 groups: ["builtin", "external", "internal", "parent", "sibling", "index"],
                 "newlines-between": "always",
             }],
+            "react-hooks/exhaustive-deps": "error",
         },
     }
 );
