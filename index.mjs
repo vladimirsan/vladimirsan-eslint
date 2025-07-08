@@ -8,10 +8,9 @@ import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginImport from "eslint-plugin-import";
 
 export default tseslint.config(
-    js.configs.all,
+    js.configs.recommended,
     tseslint.configs.strictTypeChecked,
     react.configs.flat.recommended,
-    react.configs.flat.all,
     react.configs.flat['jsx-runtime'],
     pluginPrettierRecommended,
     pluginImport.flatConfigs.recommended,
