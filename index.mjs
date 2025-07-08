@@ -60,10 +60,6 @@ export default tseslint.config(
             "react/jsx-no-bind": ["error", {
                 "allowArrowFunctions": true,
             }],
-            "no-magic-numbers": ["error", {
-                "enforceConst": true,
-                "detectObjects": true,
-            }],
             "one-var": ["error", {
                 "var": "never",
                 "let": "never",
