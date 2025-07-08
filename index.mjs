@@ -6,6 +6,7 @@ import pluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import pluginUnusedImports from "eslint-plugin-unused-imports";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginImport from "eslint-plugin-import";
+import reactRefresh from "eslint-plugin-react-refresh";
 
 export default tseslint.config(
     js.configs.recommended,
@@ -16,6 +17,7 @@ export default tseslint.config(
     pluginImport.flatConfigs.recommended,
     pluginImport.flatConfigs.typescript,
     pluginReactHooks.configs["recommended-latest"],
+    reactRefresh.configs.vite,
     {
         plugins: {
             "prettier": pluginPrettier,
